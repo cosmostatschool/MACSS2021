@@ -1,3 +1,5 @@
+During the school we do several projects, most if not all use python, so we recommend you to have it installed in advance. It can be any local installation, or something online like google collaboratory (note in some projects you might find difficulties installing the required libraries). Below we share some instructions for setting up a fresh installation of python using conda.  
+
 **Miniconda3 Installation** 
 
 Keep in mind that this installation is for a environment that doesn’t affect other packages that you may already have in your system. One advantage of doing this installation is that miniconda also installs pip to manage packages.
@@ -38,11 +40,11 @@ The installation steps for a Linux based are quite simple, you may need to insta
 	
     ~]$     “         “     matplotlib
 	
-    ~]$     “         “     jupyter
+    ~]$     “         “     jupyterlab
 	
-    ~]$     “         “     sympy
+    ~]$     “         “     pandas
   
-  or conda install numpy scipy matplotlib jupyter sympy h5py
+  or conda install numpy scipy matplotlib numpy scipy matplotlib jupyterlab pandas
    
 8. To check the installation of the packages run in the terminal 
 
@@ -122,7 +124,7 @@ You should install the following packages respecting the order in the list.
 
 9. Installing necessary packages.
 
-  	~]$ conda install numpy scipy matplotlib jupyter sympy h5py
+  	~]$ conda install numpy scipy matplotlib jupyterlab pandas
 
 10. To check the installation of the packages run the following lines in the terminal 
 
