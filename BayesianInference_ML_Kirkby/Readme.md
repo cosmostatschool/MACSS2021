@@ -21,7 +21,8 @@ import pandas as pd
 from sklearn import preprocessing, decomposition, ensemble, inspection
 import seaborn as sns; sns.set()
 ```
-Finally, check that you can read your data,  e.g.
+Now check that you can read your data,  e.g.
 ```
 df = pd.read_csv('mydata.csv')
 ```
+Finally, add a description of your dataset to [this spreadsheet](https://docs.google.com/spreadsheets/d/1dhorqsz6x0zLBpXBQPWi0Z16raU4V60z1fAinApjIlU/edit?usp=sharing).
