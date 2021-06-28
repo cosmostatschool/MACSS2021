@@ -13,6 +13,8 @@ The two main numbers  for any dataset are:
 
 Any format that can be imported into pandas is ok. Pandas import functions have names like `read_csv` and are documented [here](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 
+Kaggle is a good source of interesting open source datasets: https://www.kaggle.com/datasets
+
 Once you have selected your data, check that you can import the following packages in a jupyter notebook:
 ```
 import numpy as np
