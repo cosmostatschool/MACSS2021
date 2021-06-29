@@ -28,3 +28,13 @@ Now check that you can read your data,  e.g.
 df = pd.read_csv('mydata.csv')
 ```
 Finally, add a description of your dataset to [this spreadsheet](https://docs.google.com/spreadsheets/d/1dhorqsz6x0zLBpXBQPWi0Z16raU4V60z1fAinApjIlU/edit?usp=sharing).
+
+In case you do not have a dataset to work with, I have included three samples in this repo:
+ - `covid.csv`: Vaccination rates and UN indicators for countries of the world (as of June 2021)
+ - `fifa.csv`: Male soccer player statistics from FIFA'21 (Spain,Italy,France,Germany,England,Mexico 1st divisions only)
+ - `titanic.csv`: Information about passengers on the Titantic
+
+You can load one of these remotely, e.g.
+```
+df = pd.read_csv('https://raw.githubusercontent.com/cosmostatschool/MACSS2021/main/BayesianInference_ML_Kirkby/covid.csv')
+```
