@@ -11,7 +11,12 @@ The goal of this three-part series is to learn the basics of strong lensing and 
 The notebooks are accessible [at this github repository](https://github.com/sibirrer/strong_lensing_lectures).
 Lenstronomy source code is [here](https://github.com/sibirrer/lenstronomy)
 
-## First lecture
+## First lecture (Tuesday June 29th)
 
-- Slides (coming soon)
+- Slides [Introduction slides day 1](https://drive.google.com/file/d/1-tAjqBo40p1CrwfP75MlRUQyniuaRaIf/view?usp=sharing)
 - Intro notebook [![Intro notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sibirrer/strong_lensing_lectures/blob/main/Lectures/SL_basics.ipynb)
+
+Homework (for Thursday):
+- Play around with the notebook of day one, familiarize yourself with the formalism and note questions you have. 
+- Install lenstronomy and required software locally to run the notebook on your own machine
+- (optional) find and suggest a topic in strong lensing that you are interested in to work on a mini-project
