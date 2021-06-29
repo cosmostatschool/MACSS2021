@@ -1,6 +1,8 @@
 # Intro to Machine Learning and Bayesian Inference
 
-Day 1 slides are [here](https://docs.google.com/presentation/d/1IPAVxFkwyQwCEpC-KfvTOrnxoUKN2IxIK6NVmyXqM2U/edit?usp=sharing)
+## Day 1
+
+Slides are [here](https://docs.google.com/presentation/d/1IPAVxFkwyQwCEpC-KfvTOrnxoUKN2IxIK6NVmyXqM2U/edit?usp=sharing)
 
 ## Dataset Homework
 
@@ -38,3 +40,19 @@ You can load one of these remotely, e.g.
 ```
 df = pd.read_csv('https://raw.githubusercontent.com/cosmostatschool/MACSS2021/main/BayesianInference_ML_Kirkby/covid.csv')
 ```
+
+## Day 2
+
+Dataset preprocessing:
+ - pandas [dropna](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.dropna.html): remove rows (samples) with invalid data
+ - pandas [select_dtypes](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.select_dtypes.html): remove columns (features) with non-numeric values
+ - sklearn [preprocessing.scale](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.scale.html): scale numeric features to have zero mean and std dev = 1
+
+Estimate dataset dimensionality:
+ - sklearn [decomposition.PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
+ - [Measure and reduce dimensionality](https://nbviewer.jupyter.org/github/dkirkby/MachineLearningStatistics/blob/master/notebooks/Dimensionality.ipynb) (notebook)
+
+Estimate feature importance:
+ - sklearn [random forests](https://scikit-learn.org/stable/modules/ensemble.html#forest)
+ - sklearn [permutation importance](https://scikit-learn.org/stable/modules/permutation_importance.html)
+ - [Case study: redshift inference](https://nbviewer.jupyter.org/github/dkirkby/MachineLearningStatistics/blob/master/notebooks/Redshift.ipynb) (notebook)
