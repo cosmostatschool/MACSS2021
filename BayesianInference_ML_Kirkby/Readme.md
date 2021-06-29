@@ -43,10 +43,15 @@ df = pd.read_csv('https://raw.githubusercontent.com/cosmostatschool/MACSS2021/ma
 
 ## Day 2
 
+The notebook is [here](https://github.com/cosmostatschool/MACSS2021/blob/main/BayesianInference_ML_Kirkby/MACSS21-Day2.ipynb).
+
 Dataset preprocessing:
  - pandas [dropna](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.dropna.html): remove rows (samples) with invalid data
  - pandas [select_dtypes](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.select_dtypes.html): remove columns (features) with non-numeric values
  - sklearn [preprocessing.scale](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.scale.html): scale numeric features to have zero mean and std dev = 1
+
+Visualization:
+ - seaborn [pairplot](https://seaborn.pydata.org/generated/seaborn.pairplot.html) of small sets of numeric features, colored by a categorical feature.
 
 Estimate dataset dimensionality:
  - sklearn [decomposition.PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
