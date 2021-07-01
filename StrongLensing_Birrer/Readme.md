@@ -22,7 +22,7 @@ Homework (for Thursday):
 - (optional) find and suggest a topic in strong lensing that you are interested in to work on a mini-project
 
 
-# Second lecture (Thursday July 1st)
+## Second lecture (Thursday July 1st)
 
 - lecture II: lensing observables and degeneracies [![lecture II notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sibirrer/strong_lensing_lectures/blob/main/Lectures/lensing_observables_II.ipynb)
 - lecture III: lens modelling [![lecture III notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sibirrer/strong_lensing_lectures/blob/main/Lectures/einstein_ring_III.ipynb)
