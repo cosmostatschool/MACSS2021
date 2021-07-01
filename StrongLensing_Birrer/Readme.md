@@ -14,9 +14,18 @@ Lenstronomy source code is [here](https://github.com/sibirrer/lenstronomy)
 ## First lecture (Tuesday June 29th)
 
 - Slides [Introduction slides day 1](https://drive.google.com/file/d/1-tAjqBo40p1CrwfP75MlRUQyniuaRaIf/view?usp=sharing)
-- Intro notebook [![Intro notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sibirrer/strong_lensing_lectures/blob/main/Lectures/SL_basics.ipynb)
+- lecture I: lensing basics [![lecture I notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sibirrer/strong_lensing_lectures/blob/main/Lectures/lensing_basics_I.ipynb)
 
 Homework (for Thursday):
 - Play around with the notebook of day one, familiarize yourself with the formalism and note questions you have. 
 - Install lenstronomy and required software locally to run the notebook on your own machine
 - (optional) find and suggest a topic in strong lensing that you are interested in to work on a mini-project
+
+
+# Second lecture (Thursday July 1st)
+
+- lecture II: lensing observables and degeneracies [![lecture II notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sibirrer/strong_lensing_lectures/blob/main/Lectures/lensing_observables_II.ipynb)
+- lecture III: lens modelling [![lecture III notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sibirrer/strong_lensing_lectures/blob/main/Lectures/einstein_ring_III.ipynb)
+
+Homework (for Friday):
+- change the lensing configuration in the notebook of lecture III and run (and save) the model fit and posterior inference
