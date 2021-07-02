@@ -29,3 +29,10 @@ Homework (for Thursday):
 
 Homework (for Friday):
 - change the lensing configuration in the notebook of lecture III and run (and save) the model fit and posterior inference
+
+
+## Third lecture (Friday July 2nd)
+
+- Slides [Wrap-up slides day 3](https://drive.google.com/file/d/1QiaUxOj3fcIkm6aQJrbh82igRZtrDQy5/view?usp=sharing)
+- substructure imaging modeling notebook [![substructure notebook in Colab](https://colab.research.google.com/github/sibirrer/strong_lensing_lectures/blob/main/Examples/substructure_imaging.ipynb)
+
