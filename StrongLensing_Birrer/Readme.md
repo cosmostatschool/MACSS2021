@@ -11,8 +11,8 @@ The goal of this three-part series is to learn the basics of strong lensing and 
 The notebooks are accessible [at this github repository](https://github.com/sibirrer/strong_lensing_lectures).
 Lenstronomy source code is [here](https://github.com/sibirrer/lenstronomy)
 
-The version of the notebooks being used in this specific lecture are with the release [here](https://github.com/sibirrer/strong_lensing_lectures/releases/tag/v1.0)
-and making use of lenstronomy version 1.8.0.
+The version of the notebooks being used in this specific lecture are with the release [here](https://github.com/sibirrer/strong_lensing_lectures/releases/tag/v1.1)
+and making use of lenstronomy version 1.8.2.
 
 
 ## First lecture (Tuesday June 29th)
